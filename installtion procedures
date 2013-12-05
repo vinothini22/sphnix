@@ -1,0 +1,21 @@
+Compliation procedures:
+
+1) download the package from sphnix site
+2) tar xzvf sphinx-2.2.1-beta.tar.gz
+3) cd sphinx
+4) ./configure --prefix=/usr/local/sphinx
+5) make
+6) make install
+
+Installation:
+
+1)sudo add-apt-repository ppa:builds/sphinxsearch-daily
+2)sudo apt-get update
+3)sudo apt-get install sphinxsearch
+ 
+
+To start/stop
+sudo service sphinxsearch start
+
+
+
